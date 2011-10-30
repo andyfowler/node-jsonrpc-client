@@ -1,0 +1,31 @@
+{
+  "name":        "jsonrpc-client",
+  "description": "Lightweight JSON-RPC client using scoped-http-client",
+  "keywords":    ["json-rpc", "jsonrpc", "coffeescript"],
+  "version":     "0.1.0",
+  "author":      "Andy Fowler (http://github.com/andyfowler)",
+  "repository":  {
+    "type" : "git",
+    "url" : "https://github.com/andyfowler/node-jsonrpc-client.git"
+  },
+  "licenses":    [{ 
+    "type": "MIT"
+    "url": "https://github.com/andyfowler/node-jsonrpc-client/raw/master/LICENSE"
+  }],
+  
+  "main":        "./lib/index.js",
+  
+  "directories": {
+    "lib": "./lib/"
+  },
+
+  "dependencies": {
+    "scoped-http-client": ">= 0.9.4"
+  },
+  "devDependencies": {
+    "coffee-script": ">=1.1.2",
+    "nodeunit": ">=0.6.0",
+    "nock": ">=0.3.1"
+  }
+
+}
