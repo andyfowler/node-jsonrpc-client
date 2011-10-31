@@ -2,7 +2,7 @@
 # 
 
 nock            = require('nock')
-jsonrpc         = require('..')
+jsonrpc         = require('../src/index.coffee')
 endpoint        = 'http://example.com'
 
 createNockWithResponse = (string, statusCode = 200) ->
