@@ -1,7 +1,7 @@
 JSON-RPC Client for Node.js
 ===========================
 
-A dead-simple JSON-RPC client for Node.js, built on top of [scoped-http-client][] in [Coffeescript][coffeescript]. Released under the MIT license.
+A dead-simple JSON-RPC client for Node.js, built on top of [scoped-http-client][] in [Coffeescript][coffeescript]. Generally adheres to the incomplete [JSON-RPC 2.0 spec][spec] -- earlier specs didn't support named parameters. Released under the MIT license. 
 
 Why this package?
 -----------------
@@ -44,3 +44,4 @@ Todo
 
 [scoped-http-client]: https://github.com/technoweenie/node-scoped-http-client
 [coffeescript]: http://jashkenas.github.com/coffee-script/
+[spec]: http://jsonrpc.org/spec.html
