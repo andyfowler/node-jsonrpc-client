@@ -12,7 +12,8 @@ class JsonrpcClient
   
   constructor: (endpoint) ->
     @client = scopedClient.create(endpoint)
-                          .header 'Accept', 'application/json'
+                          .header('Content-Type', 'application/json')
+                          .header('Accept', 'application/json')
     
   call: (method, params, callback) ->
     jsonParams =
